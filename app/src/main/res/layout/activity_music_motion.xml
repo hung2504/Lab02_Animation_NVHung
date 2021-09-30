@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MusicMotion"
+    app:layoutDescription="@xml/activity_music_motion_scene">
+
+    <ImageView
+        android:id="@+id/bgroud"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/hinh2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></ImageView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/eclipse"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="91dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/menu"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/music"
+        tools:layout_editor_absoluteX="327dp"
+        tools:layout_editor_absoluteY="27dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/progress"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ih"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="500dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/next"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sd"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="494dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/pause"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Love Story - Taylor Swift"
+        android:textColor="@color/purple_700"
+        android:textSize="27dp"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="602dp" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
