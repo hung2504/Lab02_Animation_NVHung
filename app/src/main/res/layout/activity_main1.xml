@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C8EDFE"
+    tools:context=".MainActivity1">
+
+    <ImageView
+        android:id="@+id/imgBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/remove_bg"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"></ImageView>
+    <TextView
+        android:id="@+id/tvFlower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flowers for your life !"
+        app:layout_constraintTop_toBottomOf="@id/imgBack"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="35dp"></TextView>
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="275dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="45dp"
+        android:background="#F18332"
+        android:text="GO"
+        android:textSize="25sp"
+        app:backgroundTint="#F18332"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvFlower"></Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
