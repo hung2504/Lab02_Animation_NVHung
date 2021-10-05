@@ -65,6 +65,18 @@ public class AdapterMusic extends RecyclerView.Adapter<AdapterMusic.ViewHolder> 
             tvNameMu = itemView.findViewById(R.id.tvNameMu);
             tvNameAu = itemView.findViewById(R.id.tvNameAu);
 
+            imgAVT.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if(mClickListener != null){
+                        int position = getAdapterPosition();
+                        if(position != RecyclerView.NO_POSITION){
+                            listener.onItemClick(position);
+                        }
+                    }
+                }
+            });
+
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
